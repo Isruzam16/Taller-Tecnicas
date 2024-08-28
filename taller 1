@@ -1,0 +1,155 @@
+let nombre = "Isaac" 
+console.log(nombre);
+
+let edad = 19
+console.log(edad);
+
+let estudiante = true 
+console.log(estudiante);
+
+let numero = 19;
+if (numero>0){
+console.log(numero,"El numero es positivo");
+}
+else if (numero<0){
+    console.log(numero,"El numero es neativo")
+}
+else{
+    console.log(numero,"El numero es cero")
+}
+
+let hobbies =[ 
+    "1.Basquet"
+   ,"2.Natación"
+   ,"3.leer"
+   ,"4.videojuegos"
+]
+console.log(hobbies)
+
+const persona = {
+nombre: "Isaac", edad: 19, estudiante: true 
+};
+console.log(persona);
+
+let nullVar = null
+if (nullvar = null) {
+    console.log("NullVar es null")
+}
+else {
+console.log("NullVar tiene un valor")
+}
+console.log(nullVar);
+
+let edad_2 = ("¿Cuantos años tiene?");
+edad_2 = parseInt(edad_2);
+if (isNaN(edad_2)){
+    console.log("introduce un numero valido");
+} else{
+for (let i=1;i<=edad_2;i++){
+ console.log("Has cumplido" +i+ "años")
+    }
+}
+
+//ejercicio10
+
+let nombre_2 = "Isaac";
+let apellido = "Zambrano";
+let NombreCompleto = nombre_2 +" "+ apellido;
+console.log(NombreCompleto);
+
+//ejercicio11
+
+let num1 = 19;
+let num2 = 20;
+let suma = num1 + num2; 
+console.log(suma);
+
+//ejercicio12
+let num3 = 20;
+let num4 = 19;
+let resta = num3 - num4;
+console.log(resta);
+
+//ejercicio13
+
+let num5 = 19;
+let num6 = 20;
+let multiplicacion = num5 * num6;
+console.log(multiplicacion);
+
+//ejercicio14
+
+let num7 = 20;
+let num8 = 20;
+let division = num7 / num8;
+console.log(division);
+
+//ejercicio15
+
+let modulo = 10 % 3;
+console.log(modulo)
+
+//ejercicio16
+
+let contador = 0;
+contador++;
+console.log(contador);
+contador+=1;
+console.log(contador)
+
+//ejercicio17
+
+let contadorec = 19;
+contadorec--;
+console.log(contadorec);
+contadorec--;
+console.log(contadorec);
+
+//ejercicio18
+
+let obejtos = ["anillo","lapiz","arete","botella","gorra"];
+console.log(obejtos);
+
+//ejercicio19
+
+let objetos = ["anillo","lapiz","arete","botella","gorra"];
+let buscarvalor = "anillo"
+if (objetos.includes(buscarvalor)){
+    console.log("El valor esta presente en la lista");
+}else{
+    console.log("el valor no esta presente en la lista");
+}
+
+//ejercicio20
+
+let objetos_2 = ["anillo","lapiz","arete","botella","gorra"];
+objetos_2.push("cuaderno");
+console.log(objetos_2);
+objetos_2.splice(3,0,"reloj");
+console.log(objetos_2)
+
+//ejercicio21
+
+let objetos_3 = ["anillo","lapiz","arete","botella","gorra"];
+objetos_3 = objetos_3.filter(objetos_3=>objetos_3!== "arete");
+console.log(objetos_3);
+objetos_3.splice(2,1);
+console.log(objetos_3);
+
+//ejercicio22
+
+let num9 = 19;
+let num10 = 19;
+let soniguales = num9 === num10;
+console.log(soniguales);
+
+//ejercicio23
+
+let numero11 = 19;
+let numero12 = 10;
+let EsMayor = numero11 > numero12;
+console.log(EsMayor);
+let numero12 = 10;
+let EsMayor = numero11 > numero12;
+console.log(EsMayor);
+
